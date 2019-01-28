@@ -1,13 +1,10 @@
-import React, {Component, Fragment} from 'react';
-import Header from "../../components/Header/Header";
+import React, {Component} from 'react';
+import Home from "../../components/Home/Home";
 
 class MainContainer extends Component {
     render() {
         return (
-            <Fragment>
-                <Header/>
-                <h1>Home page</h1>
-            </Fragment>
+            <Home/>
         );
     }
 }

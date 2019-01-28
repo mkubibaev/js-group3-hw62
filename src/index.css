@@ -56,3 +56,9 @@ body {
     color: #FFC955;
     border-color: #FFC955;
 }
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

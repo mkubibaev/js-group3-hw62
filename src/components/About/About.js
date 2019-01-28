@@ -5,7 +5,9 @@ const About = props => {
     return (
         <Fragment>
             <Header/>
-            <h1>About page</h1>
+            <div className="main">
+                <h1>About page</h1>
+            </div>
         </Fragment>
     );
 };
